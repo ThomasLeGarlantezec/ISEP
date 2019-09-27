@@ -1,4 +1,4 @@
-# ISEP
+# TD1-LeGarlantzec-G5
 School-Related work
 TD1
 
