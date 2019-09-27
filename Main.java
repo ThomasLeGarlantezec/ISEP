@@ -2,14 +2,10 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		
 		// TODO Auto-generated method stub
-		
-		//question 4.0.1 : le programme va demander un entier puis un réel avant de les prints dans la console
 		
 		//question 4.1.1 :
 		System.out.println("Bonjour,quel est votre prénom ?");
-		//question 4.0.2 : le programme attend l'input pour le réel puis l'entir avant de les afficher.
 		
 		//scanner permet de demander une variable
 		Scanner scanner = new Scanner(System.in);
@@ -27,8 +23,6 @@ public class Main {
 		
 		somme();
 		division();
-		
-		//question 5.3 : il faut trois variable en float, on peut les demander et le formule est : longeur*largeur*hauteur
 		volume();
 		}
 		
@@ -54,7 +48,7 @@ public class Main {
 		float division = (float)premierEntier/deuxiemeEntier;
 		System.out.println("La division de " + premierEntier + " par " + deuxiemeEntier + " est egal a " + division);
 	}
-	
+	//question 5.3
 public static void volume(){
 		
 		Scanner scanner = new Scanner(System.in);
@@ -66,10 +60,6 @@ public static void volume(){
 		float troisiemeEntier = scanner.nextInt();
 		float volume = (float)premierEntier*deuxiemeEntier*troisiemeEntier;
 		System.out.println("Le volume est egal a " + volume);
-		
-		/*question 5.6 : les problèmes de se programme sont le manque de flexibilité,
-		il ne renvoie rien (résultats non exploitable pour le programme)
-		et l'utilisateur doit rentrer manuellemnt toute les valeurs */
 	}
 
 }
